@@ -1,0 +1,30 @@
+{
+  "name": "image-handler-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "image-handler-cdk": "bin/image-handler-cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "8.10.45",
+    "typescript": "^3.3.3333",
+    "ts-node": "^8.1.0",
+    "aws-cdk": "^1.5.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.5.0",
+    "@aws-cdk/aws-cloudformation": "^1.5.0",
+    "@aws-cdk/aws-cloudfront": "^1.5.0",
+    "@aws-cdk/aws-iam": "^1.6.1",
+    "@aws-cdk/aws-lambda": "^1.5.0",
+    "@aws-cdk/aws-sns": "^1.5.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.5.0",
+    "@aws-cdk/aws-sqs": "^1.5.0",
+    "@aws-cdk/core": "^1.5.0",
+    "@aws-cdk/custom-resources": "^1.5.0"
+  }
+}
