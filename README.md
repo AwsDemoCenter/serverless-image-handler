@@ -54,10 +54,29 @@
 
 ### Other Useful command
 
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+ * destory deployed stack
 
-* `npm run watch`   watch for changes and compile
+   ```
+   cdk destroy
+   ```
+
+ * compare deployed stack with current state
+
+   ```
+   cdk diff
+   ```
+
+ * emits the synthesized CloudFormation template
+
+   ```
+   cdk synth
+   ```
+
+* watch for changes and compile
+
+  ```
+  npm run watch
+  ```
 
 ### Trouble shooting
 
