@@ -40,7 +40,7 @@
 
 ### Deploy serverless image handler
 
- *  compile typescript to js
+ * compile typescript to js
 
    ```
    npm run build
